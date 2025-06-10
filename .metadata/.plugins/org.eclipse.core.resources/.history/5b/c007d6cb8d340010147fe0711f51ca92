@@ -1,0 +1,39 @@
+package questions;
+import java.util.Scanner;
+
+public class EvenANDOddElements 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int[] arr = new int[5];
+		int[] newarr;
+		int count = 1;
+		
+		
+		
+		System.out.print("Plase enter the elements of the array: ");
+		for(int i=0; i<arr.length; i++)
+		{
+			arr[i] = sc.nextInt();
+		}
+		
+		
+		
+		
+		for(int i=0; i<arr.length; i++)
+		{
+			newarr = new int[count];
+			if(arr[i]%2==0)
+			{
+				newarr[i] = arr[i];
+				count++;
+			}
+			
+		}
+		
+		
+	}
+
+}

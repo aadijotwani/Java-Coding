@@ -1,0 +1,12 @@
+package questions;
+
+public class TwoDigitElementSearch 
+{
+	public static void main(String[] args) 
+	{
+		int[] arr = {22, 309, 4, 55};
+		
+		System.out.println(arr[0]%10);
+	}
+
+}

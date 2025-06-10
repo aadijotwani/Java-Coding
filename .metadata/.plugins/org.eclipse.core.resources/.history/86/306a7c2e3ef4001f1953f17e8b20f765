@@ -1,0 +1,25 @@
+public class BinarySearch2 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		int[] arr = {2, 4, 8, 9, 10, 5};
+		
+		
+		int s = arr[0];
+		int e = arr[arr.length-1];
+		int m = (s+e)/2;
+		
+		if(arr[m] > arr[m-1])
+		{
+			s = m+1;
+		}
+		
+		else 
+		{
+			e = m;
+		}
+	}
+
+}

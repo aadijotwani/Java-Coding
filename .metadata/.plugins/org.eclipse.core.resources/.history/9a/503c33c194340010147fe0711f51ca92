@@ -1,0 +1,29 @@
+package questions;
+
+public class TwoDigitElementSearch 
+{
+	public static void main(String[] args) 
+	{
+		int[] arr = {22, 309, 4, 55};
+		
+		for(int i=0; i<arr.length; i++)
+		{
+			int n = 10, count = 1;
+			for(int j=0; j<arr.length; j++)
+			{
+				if(arr[i]%n>=0 && arr[i]%n<=10)
+				{
+					System.out.println(arr[i]+" is a "+count+" digit number");
+					break;
+				}
+				else
+				{
+					count++;
+					n *= 10;
+					
+				}
+			}
+		}
+	}
+
+}

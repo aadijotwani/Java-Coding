@@ -1,0 +1,43 @@
+package Getting_Started_With_Java;
+import java.util.Scanner;
+public class Q6_GreatestNumber 
+{
+	public static void Method1(int n1, int n2)
+	{
+		if(n1>n2)
+		{
+			System.out.println(n1+" is greater than "+n2);
+		}
+		else if(n2<n1)
+		{
+			System.out.println(n2+" is greater than "+n1);
+		}
+		else
+		{
+			System.out.println("Both the number are equal");
+		}
+	}
+	
+	public static void Method2(int n1, int n2)
+	{
+		if(n1 != n2)
+		{
+			System.out.println(n1>n2 ? n1+" is greater than "+n2 : n2+" is greater than "+n1); 
+		}
+		else 
+		{
+			System.out.println("Both the entered numbers are equal ");
+		}
+	}
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Please enter the first Number : ");
+		int n1 = sc.nextInt();
+		System.out.print("Please enter the Second Number : ");
+		int n2 = sc.nextInt();
+		
+	}
+
+}

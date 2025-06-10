@@ -1,0 +1,10 @@
+package Getting_Started_With_Java;
+
+public class Q6_GreatestNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

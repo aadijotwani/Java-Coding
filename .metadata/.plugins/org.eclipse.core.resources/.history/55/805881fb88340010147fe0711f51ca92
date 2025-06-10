@@ -1,0 +1,91 @@
+package questions;
+import java.util.Scanner;
+public class ArrayTraversal 
+{	
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Please enter the size of the array: ");
+		int n = sc.nextInt();
+		
+		int[] arr = new int[n];		
+		
+		System.out.print("Please enter the elements of the array: ");
+		for(int i=0; i<arr.length; i++)
+		{
+			arr[i] = sc.nextInt();
+		}
+		
+		
+		System.out.print("From Start to End: \n");
+		Traverse_StoE(arr);
+		System.out.print("From End to Start: \n");
+		Traverse_EtoS(arr);
+		System.out.print("From Start to Half: \n");
+		Traverse_StoHalf(arr);
+		System.out.print("From Half to End: \n");
+		Traverse_HalftoE(arr);
+		System.out.print("From End to Half: \n");
+		Traverse_EtoHalf(arr);
+		System.out.print("From Half to Start: \n");
+		Traverse_HalftoS(arr);
+		
+		
+	}
+	
+	static void Traverse_StoE(int[] arr)
+	{
+		for(int i=0; i<arr.length; i++)
+		{
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
+	}
+	
+	static void Traverse_EtoS(int[] arr)
+	{
+		for(int i=arr.length-1; i>=0; i--)
+		{
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
+	}
+	
+	static void Traverse_StoHalf(int[] arr)
+	{
+		for(int i=0; i<arr.length/2; i++)
+		{
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
+	}
+	
+	static void Traverse_HalftoE(int[] arr)
+	{
+		for(int i=(arr.length-1)/2; i<arr.length; i++)
+		{
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
+	}
+	
+	static void Traverse_EtoHalf(int[] arr)
+	{
+		for(int i=arr.length-1; i>=arr.length/2; i--)
+		{
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
+	}
+	
+	static void Traverse_HalftoS(int[] arr)
+	{
+		for(int i=(arr.length-1)/2; i>=0; i--)
+		{
+			System.out.print(arr[i]+" ");
+		}
+		System.out.println();
+	}
+
+	
+}

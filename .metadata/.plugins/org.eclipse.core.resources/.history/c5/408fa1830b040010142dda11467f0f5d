@@ -1,0 +1,15 @@
+package sheet1;
+
+public class Q2_PrintingSelectively 
+{
+
+
+	public static void main(String[] args) 
+	{
+		String name = "Bhopal";
+		String name1 = "Bhopal"+"MP";
+		String name2 = name.concat("MP");
+		System.out.println(name2);
+	}
+
+}

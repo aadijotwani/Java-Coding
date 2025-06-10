@@ -1,0 +1,20 @@
+package questions;
+
+
+
+public class TwoDigitElementSearch 
+{
+	public static void main(String[] args) 
+	{
+		int[] arr = {22, 309, 4, 55};
+		
+		for(int i=0; i<4; i++)
+		{
+			if(i%100==0)
+			{
+				System.out.print(arr[i]+", ");
+			}
+		}
+	}
+
+}

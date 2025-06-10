@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.awt.image.AreaAveragingScaleFilter"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.multi.MultiInternalFrameUI"/>
+    <fullyQualifiedTypeName name="java.security.cert.TrustAnchor"/>
+    <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.spi.AbstractResourceBundleProvider"/>
+    <fullyQualifiedTypeName name="sun.jvm.hotspot.oops.java_lang_Class"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.toolkit.util.JavaScriptScanner"/>
+    <fullyQualifiedTypeName name="javax.swing.UIClientPropertyKey"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="javax.swing.JTree.DynamicUtilTreeNode"/>
+    <fullyQualifiedTypeName name="questions.Minimum"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="questions.Span"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.function.IntPredicate"/>
+    <fullyQualifiedTypeName name="java.lang.classfile.instruction.NewMultiArrayInstruction"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.VoiceStatus"/>
+    <fullyQualifiedTypeName name="java.awt.GraphicsDevice.WindowTranslucency"/>
+    <fullyQualifiedTypeName name="questions.SumAndProduct"/>
+    <fullyQualifiedTypeName name="Getting_Started_With_Java.Factorial"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="int"/>
+    <fullyQualifiedTypeName name="javax.xml.transform.Templates"/>
+    <fullyQualifiedTypeName name="java.io.CharArrayReader"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,51 @@
+package number;
+import java.util.Scanner;
+public class Nth_MinMaxArray 
+{
+	public static void print(int[] arr, int num)
+	{
+		System.out.println("Original Array ");
+		for(int i=0; i<arr.length; i++)
+		{
+			System.out.print(arr[i]+", ");
+		}
+	}
+
+	public static void Min(int[] arr, int num)
+	{
+		int min = arr[0];
+		System.out.println("Maximum number among the whole array will be");
+		
+		for(int i=0; i<arr.length; i++)
+		{
+			if(arr[i] < min)
+			{
+				min = arr[i];
+			}
+		}
+		System.out.println(min);
+
+		for(int i=0; i<arr.length; i++)
+		{
+			if(<num && num>min)
+			{
+				num = arr[i];
+			}
+		}
+		System.out.println(num);
+	
+	}
+	
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter a number to find its Nth Minimum value ");
+		int num = sc.nextInt();
+		int[] arr = {1,2,3,4,5,60,7,8,9};
+		print(arr, num);
+		System.out.println("\n");
+		Min(arr, num);
+		
+	}
+
+}

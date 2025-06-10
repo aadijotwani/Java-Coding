@@ -1,0 +1,43 @@
+package Getting_Started_With_Java;
+
+public class Factorial 
+{
+	static void factorial(int n, int k)
+	{
+		if(n == 1)
+		{
+			System.out.println(k);;
+		}
+		else {
+			k *= n;
+			factorial(n-1, k);
+		}
+
+	}
+	
+//	static void sum(int num, int n)
+//	{
+//		int sum = 0;
+//		if(num == 0)
+//		{
+//			return;
+//		}
+//			int k = 1;
+//			n = num%10;
+//			num /= 10;
+//			factorial(n, k);
+//			sum += k;
+//			sum(num, n);
+//	}
+	
+	
+	public static void main(String[] args) 
+	{
+		int num = 145;
+		int k = 1;
+		//sum(num,1);
+		factorial(5, 1);
+		System.out.println(k);
+	}
+
+}

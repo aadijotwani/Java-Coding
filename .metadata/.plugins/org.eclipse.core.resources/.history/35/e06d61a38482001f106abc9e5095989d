@@ -1,0 +1,13 @@
+package Getting_Started_With_Java;
+import java.util.Scanner;
+public class Q5_GreatestNumber
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+
+	}
+
+}
